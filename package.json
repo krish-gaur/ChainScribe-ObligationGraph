@@ -1,9 +1,16 @@
 {
   "name": "chainscribe-enterprise",
   "private": true,
-  "workspaces": ["apps/*"],
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "dev": "npm run dev --workspace=@chainscribe/web",
     "build": "npm run build --workspace=@chainscribe/web"
+  },
+  "dependencies": {
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   }
 }
