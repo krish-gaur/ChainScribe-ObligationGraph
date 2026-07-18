@@ -1,0 +1,9 @@
+{
+  "name": "chainscribe-enterprise",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace=@chainscribe/web",
+    "build": "npm run build --workspace=@chainscribe/web"
+  }
+}
