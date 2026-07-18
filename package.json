@@ -6,11 +6,8 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=@chainscribe/web",
-    "build": "npm run build --workspace=@chainscribe/web"
-  },
-  "dependencies": {
-    "next": "^16.2.10",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "build": "npm run build --workspace=@chainscribe/web",
+    "lint": "npm run lint --workspace=@chainscribe/web",
+    "type-check": "npm run type-check --workspace=@chainscribe/web"
   }
 }
